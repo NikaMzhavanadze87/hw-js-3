@@ -31,8 +31,9 @@ for(let i = 0; i < arr1.length; i++){
 }
 //#3------- აქ 0-დან 150-მდე ხელით ჩაწერა დამეზარა :)
 let arr2 = [];
-for(let i = 0; i < 151; i++)
+for(let i = 0; i < 151; i++){
 arr2.push(i);
+}
 console.log(arr2);
 let i = 0;
 while(i < arr2.length){
@@ -41,8 +42,9 @@ while(i < arr2.length){
 };
 // #4-------
 let arr3 = [];
-for(let i = 0; i < 101; i++)
+for(let i = 0; i < 101; i++){
 arr3.push(i);
+}
 console.log(arr3);
 let j = 0;
 do {
@@ -52,8 +54,9 @@ do {
 while (j < arr3.length);
 // #5------- anu loopi 100jer da mati kvadratebi shevpushe mgoni es iko davaleba tu sworad gavige
 let arr4 = []; 
-for(let i = 1; i < 101; i++) 
+for(let i = 1; i < 101; i++) {
 arr4.push(i*i);
+}
 console.log(arr4);
 
 
