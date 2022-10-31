@@ -50,11 +50,10 @@ do {
 	j++;
 } 
 while (j < arr3.length);
-// #5-------
-let arr4 = [i*i]; // ამის გარეშეც ფუშავს და რა საჭიროა?
-for(let i = 1; i < 101; i++) 
+// #5------- anu loopi 100jer da mati kvadratebi shevpushe mgoni es iko davaleba tu sworad gavige
+let arr4 = []; 
+for(let i = 1; i < 101; i++) {
 arr4.push(i);
-console.log(arr4);
-
-
+console.log(i*i);
+}
 
