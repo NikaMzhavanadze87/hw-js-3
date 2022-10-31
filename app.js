@@ -52,7 +52,7 @@ do {
 while (j < arr3.length);
 // #5------- anu loopi 100jer da mati kvadratebi shevpushe mgoni es iko davaleba tu sworad gavige
 let arr4 = []; 
-for(let i = 0; i < 101; i++) 
+for(let i = 1; i < 101; i++) 
 arr4.push(i*i);
 console.log(arr4);
 
